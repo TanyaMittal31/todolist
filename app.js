@@ -12,7 +12,7 @@ app.use(express.static("public"));    // css files ko load krne ke liye
 // const items = [];
 // const works = [];
 
-mongoose.connect("mongodb+srv://tanya:2134@cluster0.n1fmm.mongodb.net/?retryWrites=true&w=majority" , {useNewUrlParser : true});
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.n1fmm.mongodb.net/?retryWrites=true&w=majority" , {useNewUrlParser : true});
 
 // create schema
 const listItem = {
