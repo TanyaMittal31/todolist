@@ -1,0 +1,7 @@
+<!--
+    <% if(kindOfDay === "Saturday" || kindOfDay === "Sunday"){ %>
+        <h1>Today is a Weekend</h1>
+    <% }else{ %>
+        <h1>Today is a Weekday</h1>
+    <% } %>
+    -->
